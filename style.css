@@ -145,6 +145,8 @@
     width: 60px;
     height: 20px;
     animation-name: rotazione3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -153,4 +155,22 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+    animation-name: rotazione4;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
+
+
+@keyframes rotazione3{
+    0%{
+        left: 100%;
+    }
+ }
+
+@keyframes rotazione4{
+    0%{
+        right: 80%;
+    }
+}
+
+
